@@ -1,0 +1,27 @@
+body {
+  background-color: lightskyblue;
+  font-size: 20px;
+}
+
+.question {
+  background-color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.question:hover {
+  box-shadow: 0 1px 10px rgba(108,125,142,.7);
+}
+
+.question__title {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.question__answer {
+  display: block;
+  padding: 10px;
+  transition: 1s all ease-in-out;
+}
